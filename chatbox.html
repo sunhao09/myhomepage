@@ -87,10 +87,10 @@
                 }
                 if(Who.value == 0){
 	                //如果Who.value为0n那么是 A说
-                    str = '<div class="atalk"><span>A说 :' + TalkWords.value +'</span></div>';
+                    str = '<div class="atalk"><span>提问:' + TalkWords.value +'</span></div>';
                 }
                 else{
-                    str = '<div class="btalk"><span>B说 :' + TalkWords.value +'</span></div>' ;  
+                    str = '<div class="btalk"><span>解答:' + TalkWords.value +'</span></div>' ;  
                 }
                 Words.innerHTML = Words.innerHTML + str;
             }
@@ -103,8 +103,8 @@
 <body>
     <div class="talk_con">
         <div class="talk_show" id="words">
-            <div class="atalk"><span id="asay">A说：吃饭了吗？</span></div>
-            <div class="btalk"><span id="bsay">B说：还没呢，你呢？</span></div>
+            <div class="atalk"><span id="asay">提问：请用我提问</span></div>
+            <div class="btalk"><span id="bsay">解答：请用我回答</span></div>
         </div>
         <div class="talk_input">
             <select class="whotalk" id="who">

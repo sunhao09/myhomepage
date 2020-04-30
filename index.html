@@ -98,7 +98,17 @@ body{
 <br /><a href="http://hbxx.mhedu.sh.cn">
 <img border="0"src="https://pics.images.ac.cn/image/5ea97ebf18e94.html" height="100"width="500" alt="上海市闵行区鹤北小学"/></a>
 <td><hr /></td>
+
+<script>
+$(function() {
+    $.get('update.php?id=1',{r:Math.random()});
+    //当然$.post()、$.ajax()等都可以咯。
+    //然后要记得加一个随机数，因为如果不加的话，有的浏览器会认为是同一个请求，然后不请求。
+});
+</script>
+	
 <br /><center><a href="Mailto:fcdly0209@163.com">点击给我发送邮件（如非iOS设备访问，请安装Outlook，否则无效）</a></center>
+
 </div>
 	
 

@@ -19,6 +19,11 @@ body{
     color:white;
     text-align:center;
     padding:5px;
+    width:100%;
+    word-break:keep-all;     /* 不换行 */
+    white-space:nowrap;      /* 不换行 */
+    overflow:hidden;         /* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow:ellipsis; 
  }
 #nav {
     line-height:30px;
@@ -45,13 +50,7 @@ body{
 <body>
 
 <div id="header">
-td{
-            width:100%;
-            word-break:keep-all;     /* 不换行 */
-            white-space:nowrap;      /* 不换行 */
-            overflow:hidden;         /* 内容超出宽度时隐藏超出部分的内容 */
-            text-overflow:ellipsis; 
-}
+
 
 <center><h1>个人主页</h1></center>
 <br /><td> <td>

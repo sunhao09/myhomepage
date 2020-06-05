@@ -28,9 +28,8 @@ body{
     line-height:30px;
     background-color:#eeeeee;
     height:300px;
-    width:100px;
+    width:100%;
     padding:5px; 
-    margin: 0 auto；
 #footer {
     background-color:black;
     color:white;
@@ -45,18 +44,20 @@ body{
 <body>
    
 <header>
-<h1>City Gallery</h1>
+<h1>sunhao‘s blog</h1>
 </header>
 
 <nav>
-London<br>
-Paris<br>
-Tokyo<br>
+<h2>IP查询</h2>
+<FORM METHOD="get" ACTION="https://www.ip138.com/iplookup.asp" name="ipform" target="_blank">
+<tr><td align="center">IP地址：<input type="text" name="ip" size="16"> 
+<input type="submit" value="查询"><INPUT TYPE="hidden" name="action" value="2">
+</td></tr></FORM>
 </nav>
 
 
 <footer>
-Copyright W3School.com.cn
+Copyright sunhao.tk
 </footer>
 	
 </body>

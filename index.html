@@ -1,64 +1,78 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <title>sunhao的个人主页</title>
-<style>
-
-
-
-
-body{
-				background-color:#C0C0C0;
-			}
-
-
-
-
-
-
-<style>
-#header {
-    background-color:black;
-    color:white;
-    text-align:center;
-    padding:5px;
-}
-#nav {
-    line-height:30px;
-    background-color:#eeeeee;
-    height:300px;
-    width:100%;
-    padding:5px; 
-#footer {
-    background-color:black;
-    color:white;
-    clear:both;
-    text-align:center;
-    padding:5px; 
-}
-</style>
-  
-</head>
-
-<body>
-   
-<header>
-<h1>sunhao‘s blog</h1>
-</header>
-
-<nav>
-<h2>IP查询</h2>
-<FORM METHOD="get" ACTION="https://www.ip138.com/iplookup.asp" name="ipform" target="_blank">
-<tr><td align="center">IP地址：<input type="text" name="ip" size="16"> 
-<input type="submit" value="查询"><INPUT TYPE="hidden" name="action" value="2">
-</td></tr></FORM>
-</nav>
-
-
-<footer>
-Copyright sunhao.tk
-</footer>
-	
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>sunhao的个人博客-新鲜事儿、糗事儿、教程和其他内容！！</title>
+        <style>
+            .box{
+                width:800px;
+                height: 600px;
+                text-align: center;
+                line-height: 60px;
+            }
+            .container{
+                width: 805px;
+                margin:0 auto;
+            }
+            .header{
+                width:100%;
+                height:60px;
+                background:#000000;
+            }
+            .content{
+                position: relative;
+                width:700px;
+                margin:0 auto;
+            }
+            .content_body{
+                position: relative;
+                width:100%;
+                height:480px;
+                background:black;          
+            }
+            .content_footer{
+                position: relative;
+                height:60px;
+                background:#606163;
+                width:100%
+            }
+            .left{
+                height:100%;
+                width:100px;
+                float: left;
+                background:white;
+            }
+            .center{
+                float: left;
+                width: 300px;
+                height: 500%;
+                background:#9EA0AC;
+            }
+            .right{
+                height:100%;
+                width:100px;
+                float: right;               
+                background:white;
+            }
+        </style>
+    </head>
+    <body>
+         <div class="container">            
+             <div class="box">
+                <div class="header">header</div>
+                <div class="content">
+                    <div class="content_body">
+                         <div class="left">
+			    </div>
+                         <div class="center">
+			    </div>
+                         <div class="right">
+			    </div>
+                    </div>
+                    <div class="content_footer">footer</div>
+                </div>
+             </div>
+         </div>
+    </body>
 </html>
+
